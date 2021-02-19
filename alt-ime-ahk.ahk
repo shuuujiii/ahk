@@ -126,3 +126,24 @@ RAlt up::
         IME_SET(1)
     }
     Return
+; F13 is 0x0064 
+F13 & F::Send,{Blind}{Right}
+    Return
+
+F13 & B::Send,{Blind}{Left}
+    Return
+
+F13 & P::Send,{Blind}{Up}
+    Return
+
+F13 & N::Send,{Blind}{Down}
+    Return
+F13 & A::Send,{Blind}{Home}
+    Return
+F13 & E::Send,{Blind}{End}
+    Return
+F13 & H::Send,{Blind}{BS}
+    Return
+F13 & D::Send,{Blidn}{Delete}
+    Return
+
