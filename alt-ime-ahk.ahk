@@ -127,6 +127,7 @@ RAlt up::
     }
     Return
 ; F13 is 0x0064 
+; you have to change keybind by changeKey
 F13 & F::Send,{Blind}{Right}
     Return
 
@@ -144,6 +145,7 @@ F13 & E::Send,{Blind}{End}
     Return
 F13 & H::Send,{Blind}{BS}
     Return
-F13 & D::Send,{Blidn}{Delete}
+F13 & D::Send,{blind}{Delete}
     Return
-
+F13 & k::Send,{Blind}+{End}{BS}
+    Return
